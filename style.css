@@ -1,0 +1,37 @@
+body{
+    background-color:lightskyblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.pizza{
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
+
+}
+.medium{
+    background-color: gold;
+   
+}
+.large{
+    background-color: orange;
+}
+.small{
+    background-color: pink;
+}
+.contact{
+    background-color: lime;
+    
+}
+
+@media (min-width: 960px){
+ 
+    .pizzas{
+        display: flex;
+        flex:3;
+    }
+    
+}
